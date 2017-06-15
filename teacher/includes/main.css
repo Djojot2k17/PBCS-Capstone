@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body{
+	margin-top: 70px;
+}
+.container{
+	max-width: 900px;
+	border: 1px solid rgba(0,0,0,0.6);
+	border-radius: 15px;
+	box-shadow: 10px 10px 15px rgba(0,0,0,0.6);
+	padding: 15px;
+}
+#student-work-form{
+	max-width: 350px;
+	margin: 20px auto;
+}
+.wireframe_photo{
+	max-height: 160px;
+}
+#comment-table{
+	position: fixed;
+	top: 70px;
+	left: auto;
+	right: 20px;
+	bottom: 50%;
+}
+footer{
+	margin-top: 20px;
+}

@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+body{
+	margin-top: 70px;
+}
+#login-form{
+	width: 50%;
+	height: 60%;
+	border: 1px solid black;
+	border-radius: 15px;
+	box-shadow: 10px 10px 15px rgba(0,0,0,0.6);
+	margin: 7% auto;
+	padding: 15px;
+	background-color: white;
+	}
+#teacher-login-form{
+	width: 50%;
+	height: 60%;
+	border: 1px solid black;
+	border-radius: 15px;
+	box-shadow: 10px 10px 15px rgba(0,0,0,0.6);
+	margin: 7% auto;
+	padding: 15px;
+	background-color: white;
+}
+.container{
+	max-width: 800px;
+}
+#accordion{
+	max-width: 800px;
+	margin: 0 auto;
+}
+.panel-title{
+	text-align: center;
+}
+.clickable{
+	cursor: pointer;
+}
+.panel-heading span{
+	margin-top: -23px;
+	font-size: 15px;
+	margin-right: -9px
+}
+a.clickable{
+	color: inherit;
+}
+a.clickable:hover{
+	text-decoration: none;
+}
+.margin{
+	margin-top: 25px;
+}
+#title-form{
+	max-width: 800px;
+	margin: 0 auto;
+}
+.scope-container h4{
+	text-decoration: underline;
+}
+.scope-container{
+	margin-top: 25px;
+	max-width: 1366px;
+	margin: 0 auto;
+}
+.plan-container{
+	margin-top: 25px;
+	max-width: 900px;
+	margin: 0 auto;
+}
+input[type=file]::-webkit-file-upload-button {
+	border: none;
+	background-color: transparent;
+}
+input[type=file]::-webkit-file-upload-button:focus {
+	background-color: transparent;
+}
+#title-table{
+	max-width: 550px;
+	margin: 0 auto;
+}
+.table{
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.wireframe_photo{
+	max-height: 100px;
+	max-width: 250px;
+	margin: 5px auto;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.buttons{
+	margin-top: -30px;
+}
+footer{
+	margin-top: 30px;
+}

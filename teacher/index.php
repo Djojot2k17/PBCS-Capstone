@@ -61,7 +61,7 @@
 
 
 ?>
-<div class="col-md-8 pull-right">
+<div class="col-md-12">
 	<div class="row">
 		<h1 class="text-center" id="top">Teacher Dashboard</h1>
 		<hr>
@@ -236,7 +236,6 @@
 			</form>
 		</div>
 	</div>
-</div>
 <?php 
 	include 'includes/leftbar.php';
 	include '../includes/footer.php'; 

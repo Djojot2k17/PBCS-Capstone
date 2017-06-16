@@ -2,7 +2,7 @@
 	require_once '../config/init.php'; 
 	include '../includes/head.php';
 	include 'includes/navigation.php';
-	include 'includes/leftbar.php';
+	
 	//var_dump($_SESSION);
 	$students_query = $db->query("SELECT * FROM users WHERE permissions = 'student'");
 	$student_results = mysqli_fetch_all($students_query);
@@ -61,7 +61,7 @@
 
 
 ?>
-<div class="col-md-8">
+<div class="col-md-8 pull-right">
 	<div class="row">
 		<h1 class="text-center" id="top">Teacher Dashboard</h1>
 		<hr>
@@ -237,4 +237,7 @@
 		</div>
 	</div>
 </div>
-<?php include '../includes/footer.php'; ?>
+<?php 
+	include 'includes/leftbar.php';
+	include '../includes/footer.php'; 
+?>
